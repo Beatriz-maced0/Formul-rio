@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Pesquisa FMU</title>
+    <link rel="stylesheet" type="text/css" href="/script teste/formulário.css"> 
+   
+</head>
+<body >
+
+    <header>
+        <h1>Preencher formulário</h1>
+    </header>
+
+    <section>
+        <div  id = 'res'>
+            <p>Nome completo: <input type="text" name="Nome" id="Nome"></p>
+            <p>Data de nascimento: <input type="date" name="num" id="Data"></p> 
+            <p>Telefone: <input type="tel" name="Tel" id="Tel"></p>
+            <p>E-mail: <input type="email" name="email" id="email"></p>
+            <p> Sexo: <select name="sexo" id="sexo"></p>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Não binário">Outro</option>
+                <option value="Não binário">Prefiro não dizer</option></select>
+            <p>Chocolate preferido: <select name="Chocolate" id="Chocolate"></p>
+                <option value="Valsa">Sonho de Valsa</option>
+                <option value="Kit Kat">Kit Kat</option>
+                <option value="Snickers">Snickers</option>
+                <option value="Surpresa">Me surpreenda</option></select>
+
+        </div>
+        <div>
+            <p><input type="checkbox" name="Aceite" id="aceite"><a href="Termos.html">Aceito os Termos e condições</a></p>
+            <p><input type="button" value="Enviar" onclick="Enviar()"></p>
+        </div>
+       
+    </section>
+
+    <footer>
+        <p>&copy; Pesquisa - FMU</p>
+    </footer>
+
+    <script src="formulários.js"></script>
+</body>
+</html>
